@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="https://i.postimg.cc/JzBWVhW4/my-avatar.png" alt="avatar" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Richard Hanrick">Ajay Madana</h1>
+                    <p class="title">Data Scientist</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:ajaymadana2126@gmail.com" class="contact-link">ajaymadana2126@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+91 9353751552" class="contact-link">+91 9353751552</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="2002-12-06">December 6, 2002</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>College Park, Maryland, USA</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Blog</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>I'm a graduate student pursuing my MS in Data Science at the University of Maryland, driven by a mission to turn raw data into intelligent systems that solve real-world problems. With a strong foundation in computer science from Amrita University, I specialize in building modular, scalable pipelines that integrate machine learning, GenAI, and automation. I’ve worked on everything from NLP-based resume parsers and QA systems using LLMs like Gemini and LlamaIndex to full-stack dashboards and MLOps workflows using Python, LangChain, TensorFlow, Docker, and AWS.
+  </p></p>
+                    <p>Currently, I’m focused on advancing my skills in GenAI and retrieval-augmented generation (RAG) systems, combining semantic search, embeddings, and language models to create robust enterprise-grade applications. My approach is data-driven, outcome-oriented, and deeply curious — I love digging into messy data, designing clean architectures, and turning insights into action. I’m actively seeking a Summer 2026 internship in data science, applied AI, or machine learning where I can contribute to impactful projects, collaborate with world-class teams, and continue building intelligent systems that matter.</p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="genai.svg" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">GenAI Systems</h4>
+                                <p class="service-item-text">Building RAG pipelines with LLMs using LangChain and LlamaIndex.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="mlops.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">MLOps & Automation</h4>
+                                <p class="service-item-text">Streamlining deployment and monitoring with CI/CD pipelines and cloud tools.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="retail.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Retail & Inventory Analytics</h4>
+                                <p class="service-item-text">Analyzing sales trends and optimizing inventory using data-driven insights and predictive modeling for smarter supply chain decisions.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="pm.jpg" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Predictive Modeling & Forecasting</h4>
+                                <p class="service-item-text">Building machine learning models to forecast sales, demand, and optimize business strategies with data-driven predictions.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
+                            <time datetime="2023-06-14">14 June, 2023</time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p>Richard was hired to create a corporate identity. It's modern, clean and with a beautiful design that got a lot of praises from colleagues and visitors. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+                <!-- Resume Download Button -->
+                <div class="resume-download">
+                    <a href="Ajay_Resume.pdf" download class="btn-download" target="_blank">
+                        <ion-icon name="download-outline"></ion-icon> Download Resume (PDF)
+                    </a>
+                </div>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+            
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">University of Maryland, College Park</h4>
+                            <span>2025 - Present</span>
+                            <p class="timeline-text">
+                                Pursuing an MS in Data Science with a focus on machine learning, generative AI, and real-world data applications. My work includes hands-on projects, open-source contributions, and writing blogs to share insights and build expertise.
+                            </p>
+                        </li>
+            
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Amrita Vishwa Vidyapeetham</h4>
+                            <span>2021 - 2025</span>
+                            <p class="timeline-text">
+                                Completed B.Tech in Computer Science with a strong foundation in algorithms, software development, and AI. Engaged in academic projects and research that sparked my interest in data science and machine learning.
+                            </p>
+                        </li>
+                    </ol>
+            
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                Software Intern</h4>
+                            <span>June 2024 - July 2024</span>
+                            <p class="timeline-text">Designed and developed a custom FTP-like connection protocol over UDP, tailored for Real-Time Operating Systems (RTOS), which facilitated efficient and reliable file transfers in real-time applications.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title"> Software Intern</h4>
+                            <span> March 2024 - April 2024</span>
+                            <p class="timeline-text">Led the development of a sustainable spending solution, resulting in a 30% decrease in environmentally harmful expenses using OCR technology, promoting eco-friendly habits among users.</p>
+                        </li>
+
+                    
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Data Science & Machine Learning
+                                </h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Predictive Modeling with Real-World Integration</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5"> End-to-End ML Engineering with CI/CD & Cloud</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5"> Causal Inference & Counterfactual Modeling</h5>
+                                <data value="60">60%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 60%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Domain Knowledge Integration</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="portfolio " data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Projects</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                           
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="Machine Learning">
+                            <a href="https://github.com/Ajay0612" target="_blank" rel="noopener noreferrer">
+                              <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                  <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+                        
+                                <img src="student.jpg" alt="finance" loading="lazy">
+                              </figure>
+                        
+                              <h3 class="project-title">Student Performance Prediction</h3>
+                              <p class="project-category">Machine Learning, CI/CD, AWS Cloud</p>
+                            </a>
+                          </li>
+
+                        <li class="project-item active" data-filter-item data-category="Deep Learning">
+                            <a href="https://github.com/Ajay0612" target="_blank" rel="noopener noreferrer">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="Flux_Dev_A_futuristic_minimalist_illustration_depicting_the_co_3.jpg" alt="Chicken Disease Classification" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Chicken Disease Classification</h3>
+                                <p class="project-category">Deep Learning, Docker, MLOps, DVC</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="genai-dataqa-pipeline">
+                            <a href="https://github.com/Ajay0612" target="_blank" rel="noopener noreferrer">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="Genai_qa.jpg" alt="genai-dataqa-pipeline" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">genai-dataqa-pipeline</h3>
+                                <p class="project-category">LLMS, LlamaIndex, Gemini Embeddings</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category=" Weather ETL Pipeline">
+                            <a href="https://github.com/Ajay0612" target="_blank" rel="noopener noreferrer">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="weather.png" alt="brawlhalla" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title"> Weather ETL Pipeline</h3>
+                                <p class="project-category">Astro, Apache Airflow, Docker</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="https://github.com/Ajay0612" target="_blank" rel="noopener noreferrer">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="house.jpeg" alt="dsm." loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Boston House Pricing</h3>
+                                <p class="project-category">Machine Learning, AWS Sagemaker</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="Machine Learning">
+                            <a href="https://github.com/Ajay0612" target="_blank" rel="noopener noreferrer">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="retail.jpeg" alt="dsm." loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Retail and Warehouse Sales Trend Analysis and Inventory Optimization for Montgomery County</h3>
+                                <p class="project-category">Machine Learning, AWS Sagemaker, AWS S3, Tableau</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="blog " data-page="blog">
+                <header>
+                    <h2 class="h2 article-title">Blog</h2>
+                </header>
+
+                <section class="blog-posts">
+                    <ul class="blog-posts-list">
+                        <li class="blog-post-item">
+                            <a href="#">
+                                    <figure class="blog-banner-box">
+                                        <img src="Blog1 img1.jpg" loading="lazy">
+                                    </figure>
+
+                                    <div class="blog-content">
+                                        <div class="blog-meta">
+                                            <p class="blog-category">GenAI and Data Science in Business</p>
+                                            <span class="dot"></span>
+                                            <time datetime="2024-02-23">May 28, 2025</time>
+                                        </div>
+                                    
+                                        <h3 class="h3 blog-item-title">
+                                            <a href="https://medium.com/@ajaymadana2126/your-datas-story-rewritten-using-genai-to-automate-reports-dashboards-and-business-summaries-30824e6d9e71" target="_blank" rel="noopener noreferrer">
+                                                Your Data’s Story, Rewritten: Using GenAI to Automate Reports, Dashboards, and Business Summaries
+                                            </a>
+                                        </h3>
+                                        <p class="blog-text">
+                                            Generative AI isn’t just for creating poems or chatbots — it’s transforming how businesses consume and communicate data. In this post, we’ll explore how GenAI can turn complex analytics into instantly understandable reports, real-time dashboards, and business-friendly insights.
+                                        </p>
+                                    </div>
+                                    
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact " data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
